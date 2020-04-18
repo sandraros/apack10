@@ -29,6 +29,11 @@ CLASS zcl_apack10 IMPLEMENTATION.
               artifact_id    = 'apack100'
               version        = '0.1'
               git_url        = 'https://github.com/sandraros/apack100.git'
+              target_package = '' )
+            ( group_id       = 'github.com/sandraros'
+              artifact_id    = 'apack101'
+              version        = '0.1'
+              git_url        = 'https://github.com/sandraros/apack101.git'
               target_package = '' ) ) ).
   ENDMETHOD.
 
